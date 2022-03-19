@@ -115,5 +115,19 @@ nav a:hover{
 ![gambar 1.5](img/css_selector.JPG)
 
 # **Jawaban dari Pertanyaan dan Tugas**
-1. 
+1. Di sini, saya melakukan perubahan pada bagian **button** di CSS dengan menambahkan property ``{border-radius: 10px;}`` dan teks judul **Hello World** dengan merubah *font-family* -nya menjadi ``font-family: 'League Gothic', sans-serif;`` dengan font ``@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');`` dari **Google Fonts** dan memaksa semua hurufnya menjadi kapital dengan ``text-transform: uppercase;``.
+
+![gambar 1.6](img/jawaban_no1.JPG)
+
 2. pendeklarasian CSS ``#intro h1{..}`` adalah dengan menggunakan selector ``id``, sedangkan ``h1{..}`` tidak menggunakan selector.
+
+3. Ketika kita mendeklarasikan secara bersamaan antara ***INTERNAL, EKSTERNAL*** dan ***INLINE***, yang akan ditampilkan pada Browser adalah ***INLINE***. Karena ***INLINE*** Memiliki deklarasi prioritas dibanding ***EKSTERNAL*** atau pun ***INTERNAL***, seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen ``{h1}`` yang kemudian saya akan deklarasikan di CSS ***INTERNAL, EKSTERNAL*** dan juga ***INLINE*** Dengan property ``{color}`` yang berbeda, jika ***INTERNAL*** ``{color: red}``, sementara ***EKSTERNAL*** ``{color:green;}`` dan ***INLINE*** ``{color: blue;}``. Maka yang terpanggil di browser adalah ***INLINE*** karena memiliki prioritas.
+
+![gambar 1.7](img/jawaban_no3.JPG)
+
+**Hasil Deklarasinya**
+![gambar 1.8](img/jawaban_no3.1.JPG)
+
+4. Maka yang ditampilkan pertama adalah **ID**, karena **ID** adalah hitungan poin selector yang lebih besar daripada **Class**.
+
+![gambar 1.9](img/jawaban_no4.JPG)
